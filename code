@@ -1,0 +1,14 @@
+!-- Exemple combinant tous les attributs clés -->
+<label for="user_email">Votre adresse email :</label>
+<input
+    type="email"
+    id="user_email"
+    name="email"
+    placeholder="prenom.nom@domaine.tg"
+    value=""
+    required
+>
+
+<!-- Règle de bonne pratique :
+     name = destiné au traitement serveur
+     id   = destiné à l'accessibilité (<label for="">) -->
